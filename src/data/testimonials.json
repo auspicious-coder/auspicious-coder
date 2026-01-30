@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Rajesh Mehta",
+    "company": "TechInnovate Inc.",
+    "role": "CEO",
+    "feedback": "Auspicious Coders transformed our e-commerce platform. Their team's expertise in React and Node.js resulted in a 300% performance improvement.",
+    "rating": 5,
+    "project": "E-commerce Platform Revamp"
+  },
+  {
+    "id": 2,
+    "name": "Anjali Verma",
+    "company": "HealthCare Plus",
+    "role": "CTO",
+    "feedback": "Outstanding mobile app development. They delivered our patient management app ahead of schedule with flawless execution.",
+    "rating": 5,
+    "project": "Healthcare Mobile App"
+  },
+  {
+    "id": 3,
+    "name": "Vikram Malhotra",
+    "company": "FinTech Solutions",
+    "role": "Director",
+    "feedback": "The AI integration they provided for our fraud detection system has reduced false positives by 85%. Exceptional work!",
+    "rating": 5,
+    "project": "AI-Powered Fraud Detection"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "E-Commerce Platform",
+    "category": "Web Development",
+    "description": "Full-featured online shopping platform with inventory management, payment gateway, and admin dashboard.",
+    "image": "/assets/images/project-1.jpg",
+    "technologies": ["React", "Node.js", "MongoDB", "Redis", "AWS"],
+    "year": "2023",
+    "duration": "4 Months",
+    "client": "RetailCorp Inc.",
+    "features": ["Real-time inventory", "Multi-vendor support", "Payment integration", "Analytics dashboard"]
+  },
+  {
+    "id": 2,
+    "title": "Healthcare Mobile App",
+    "category": "Mobile Development",
+    "description": "Telemedicine app connecting patients with doctors for virtual consultations and prescription management.",
+    "image": "/assets/images/project-2.jpg",
+    "technologies": ["React Native", "Firebase", "Twilio", "Stripe"],
+    "year": "2024",
+    "duration": "6 Months",
+    "client": "HealthCare Plus",
+    "features": ["Video consultation", "E-prescriptions", "Appointment scheduling", "Medical records"]
+  },
+  {
+    "id": 3,
+    "title": "AI Analytics Dashboard",
+    "category": "AI/ML",
+    "description": "Business intelligence platform with predictive analytics and automated reporting.",
+    "image": "/assets/images/project-3.jpg",
+    "technologies": ["Python", "TensorFlow", "React", "D3.js", "PostgreSQL"],
+    "year": "2023",
+    "duration": "5 Months",
+    "client": "FinTech Solutions",
+    "features": ["Predictive modeling", "Real-time dashboards", "Automated reports", "Data visualization"]
+  },
+  {
+    "id": 4,
+    "title": "Smart Home IoT System",
+    "category": "IoT",
+    "description": "Complete home automation system with mobile control and AI-powered energy optimization.",
+    "image": "/assets/images/project-4.jpg",
+    "technologies": ["React Native", "Python", "MQTT", "AWS IoT", "Raspberry Pi"],
+    "year": "2024",
+    "duration": "8 Months",
+    "client": "SmartHome Tech",
+    "features": ["Voice control", "Energy monitoring", "Security system", "Scene automation"]
+  }
+]

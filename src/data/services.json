@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Full-Stack Web Development",
+    "description": "We build scalable, high-performance web applications using modern stacks like MERN, Next.js, and Django.",
+    "icon": "💻",
+    "features": ["React/Next.js", "Node.js", "MongoDB/PostgreSQL", "REST/GraphQL APIs"],
+    "color": "from-blue-500 to-cyan-500"
+  },
+  {
+    "id": 2,
+    "title": "Mobile App Development",
+    "description": "Native & cross-platform mobile apps for iOS and Android using React Native, Flutter, and Swift.",
+    "icon": "📱",
+    "features": ["React Native", "Flutter", "iOS/Android", "App Store Deployment"],
+    "color": "from-purple-500 to-pink-500"
+  },
+  {
+    "id": 3,
+    "title": "UI/UX Design",
+    "description": "Creating beautiful, intuitive user interfaces with exceptional user experiences that convert.",
+    "icon": "🎨",
+    "features": ["Figma", "Prototyping", "User Research", "Design Systems"],
+    "color": "from-orange-500 to-red-500"
+  },
+  {
+    "id": 4,
+    "title": "Cloud & DevOps",
+    "description": "Cloud infrastructure setup, CI/CD pipelines, containerization, and serverless architectures.",
+    "icon": "☁️",
+    "features": ["AWS/Azure", "Docker/K8s", "CI/CD", "Monitoring"],
+    "color": "from-green-500 to-emerald-500"
+  },
+  {
+    "id": 5,
+    "title": "AI/ML Solutions",
+    "description": "Integrating artificial intelligence and machine learning into your business processes.",
+    "icon": "🤖",
+    "features": ["Python", "TensorFlow", "NLP", "Computer Vision"],
+    "color": "from-yellow-500 to-amber-500"
+  },
+  {
+    "id": 6,
+    "title": "IT Consulting",
+    "description": "Strategic technology consulting to help your business grow and stay ahead of competition.",
+    "icon": "📊",
+    "features": ["Tech Strategy", "Digital Transformation", "Team Training", "Process Optimization"],
+    "color": "from-indigo-500 to-blue-500"
+  }
+]

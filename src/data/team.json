@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Dheeraj Kumar",
+    "role": "CEO & Founder",
+    "bio": "15+ years in software architecture. Passionate about building scalable tech solutions.",
+    "image": "/assets/images/ceo-dheeraj.jpeg",
+    "social": {
+      "linkedin": "https://linkedin.com/in/dheerajkumar",
+      "twitter": "https://twitter.com/dheerajdev",
+      "github": "https://github.com/dheeraj-codes"
+    },
+    "skills": ["Leadership", "Architecture", "Cloud", "AI/ML"]
+  },
+  {
+    "id": 2,
+    "name": "Riya Sharma",
+    "role": "CTO",
+    "bio": "Ex-Google engineer. Specializes in scalable systems and cutting-edge tech.",
+    "image": "/assets/images/cto-riya.jpg",
+    "social": {
+      "linkedin": "https://linkedin.com/in/riyasharma",
+      "twitter": "https://twitter.com/riyatech"
+    },
+    "skills": ["System Design", "DevOps", "Microservices", "Security"]
+  },
+  {
+    "id": 3,
+    "name": "Arjun Patel",
+    "role": "Lead Full-Stack Developer",
+    "bio": "Full-stack wizard with expertise in React, Node.js, and cloud platforms.",
+    "image": "/assets/images/lead-dev-arjun.jpg",
+    "social": {
+      "linkedin": "https://linkedin.com/in/arjunpatel",
+      "github": "https://github.com/arjun-dev"
+    },
+    "skills": ["React", "Node.js", "AWS", "TypeScript"]
+  },
+  {
+    "id": 4,
+    "name": "Priya Singh",
+    "role": "Project Manager",
+    "bio": "Ensures projects are delivered on time with exceptional quality.",
+    "image": "/assets/images/project-manager-priya.jpg",
+    "social": {
+      "linkedin": "https://linkedin.com/in/priyasingh"
+    },
+    "skills": ["Agile", "Scrum", "Client Relations", "Quality Assurance"]
+  }
+]
