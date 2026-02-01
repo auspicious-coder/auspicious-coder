@@ -3,12 +3,12 @@
     "id": 1,
     "name": "Dheeraj Kumar",
     "role": "CEO & Founder",
-    "bio": "15+ years in software architecture. Passionate about building scalable tech solutions.",
+    "bio": "2+ years in software architecture. Passionate about building scalable tech solutions.",
     "image": "/src/assets/images/ceo-dheeraj.jpeg",
     "social": {
       "linkedin": "https://linkedin.com/in/dheerajkumar",
       "twitter": "https://twitter.com/dheerajdev",
-      "github": "https://github.com/dheeraj-codes"
+      "github": "https://github.com/mrdheerajcs"
     },
     "skills": ["Leadership", "Architecture", "Cloud", "AI/ML"]
   },

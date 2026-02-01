@@ -1,50 +1,50 @@
 [
   {
     "id": 1,
-    "title": "Full-Stack Web Development",
-    "description": "We build scalable, high-performance web applications using modern stacks like MERN, Next.js, and Django.",
+    "title": "Full-Stack Development",
+    "description": "End-to-end web applications with Java/Spring or Python backend + React frontend.",
     "icon": "💻",
-    "features": ["React/Next.js", "Node.js", "MongoDB/PostgreSQL", "REST/GraphQL APIs"],
+    "features": ["Java Spring Boot", "React.js", "PostgreSQL", "REST APIs"],
     "color": "from-blue-500 to-cyan-500"
   },
   {
     "id": 2,
     "title": "Mobile App Development",
-    "description": "Native & cross-platform mobile apps for iOS and Android using React Native, Flutter, and Swift.",
+    "description": "Cross-platform mobile apps using Flutter (our specialist) and React Native.",
     "icon": "📱",
-    "features": ["React Native", "Flutter", "iOS/Android", "App Store Deployment"],
+    "features": ["Flutter (Dart)", "React Native", "Firebase", "App Deployment"],
     "color": "from-purple-500 to-pink-500"
   },
   {
     "id": 3,
-    "title": "UI/UX Design",
-    "description": "Creating beautiful, intuitive user interfaces with exceptional user experiences that convert.",
-    "icon": "🎨",
-    "features": ["Figma", "Prototyping", "User Research", "Design Systems"],
-    "color": "from-orange-500 to-red-500"
-  },
-  {
-    "id": 4,
-    "title": "Cloud & DevOps",
-    "description": "Cloud infrastructure setup, CI/CD pipelines, containerization, and serverless architectures.",
-    "icon": "☁️",
-    "features": ["AWS/Azure", "Docker/K8s", "CI/CD", "Monitoring"],
+    "title": "Backend API Development",
+    "description": "Robust backend systems with Java or Python for web and mobile apps.",
+    "icon": "⚙️",
+    "features": ["Java Spring", "Python FastAPI", "PostgreSQL", "API Design"],
     "color": "from-green-500 to-emerald-500"
   },
   {
+    "id": 4,
+    "title": "Frontend Development",
+    "description": "Modern, responsive UI with React.js - our frontend specialist handles complex interfaces.",
+    "icon": "🎨",
+    "features": ["React.js", "TypeScript", "Tailwind CSS", "State Management"],
+    "color": "from-orange-500 to-red-500"
+  },
+  {
     "id": 5,
-    "title": "AI/ML Solutions",
-    "description": "Integrating artificial intelligence and machine learning into your business processes.",
-    "icon": "🤖",
-    "features": ["Python", "TensorFlow", "NLP", "Computer Vision"],
-    "color": "from-yellow-500 to-amber-500"
+    "title": "Laravel Web Applications",
+    "description": "Full-featured web apps using Laravel PHP framework with MySQL.",
+    "icon": "🚀",
+    "features": ["Laravel", "MySQL", "Vue.js/React", "Admin Panels"],
+    "color": "from-red-500 to-pink-500"
   },
   {
     "id": 6,
-    "title": "IT Consulting",
-    "description": "Strategic technology consulting to help your business grow and stay ahead of competition.",
-    "icon": "📊",
-    "features": ["Tech Strategy", "Digital Transformation", "Team Training", "Process Optimization"],
+    "title": "Tech Consultation",
+    "description": "Architecture reviews, code audits, and tech stack guidance from our senior developers.",
+    "icon": "🧠",
+    "features": ["Architecture Design", "Code Review", "Tech Stack Advice", "MVP Planning"],
     "color": "from-indigo-500 to-blue-500"
   }
 ]

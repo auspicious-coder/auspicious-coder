@@ -18,11 +18,22 @@ const Contact = () => {
     setFormData(prev => ({ ...prev, [name]: value }));
   };
 
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log('Form submitted:', formData);
-    alert('Thank you for your message! We will contact you soon.');
+
+    const form = e.target;
+    const data = new FormData(form);
+
+    fetch("/", {
+      method: "POST",
+      body: data,
+    })
+      .then(() => {
+        alert("Thank you for your message! We will contact you soon.");
+        form.reset();
+      })
+      .catch((error) => alert(error));
     setFormData({
       name: '',
       email: '',
@@ -33,6 +44,7 @@ const Contact = () => {
     });
   };
 
+
   return (
     <section id="contact" className="py-20">
       <div className="container-custom">
@@ -42,12 +54,12 @@ const Contact = () => {
           highlight="Project?"
           description="Have an idea? Let's discuss how we can help you bring it to life."
         />
-        
+
         <div className="grid lg:grid-cols-2 gap-16">
           {/* Left Column - Contact Info */}
           <div>
             <h3 className="text-2xl font-bold mb-8">Contact Information</h3>
-            
+
             <div className="space-y-8">
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 rounded-xl bg-primary-100 dark:bg-primary-900/30 flex items-center justify-center">
@@ -56,14 +68,14 @@ const Contact = () => {
                 <div>
                   <h4 className="font-bold mb-2">Email Us</h4>
                   <p className="text-gray-600 dark:text-gray-400">
-                    hello@auspiciouscoders.com
+                    auspicious.coder.pvt.ltd@gmail.com
                   </p>
                   <p className="text-gray-600 dark:text-gray-400 text-sm">
                     We'll respond within 24 hours
                   </p>
                 </div>
               </div>
-              
+
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 rounded-xl bg-primary-100 dark:bg-primary-900/30 flex items-center justify-center">
                   <Phone className="w-6 h-6 text-primary-600 dark:text-primary-400" />
@@ -71,14 +83,14 @@ const Contact = () => {
                 <div>
                   <h4 className="font-bold mb-2">Call Us</h4>
                   <p className="text-gray-600 dark:text-gray-400">
-                    +1 (555) 123-4567
+                    +91 9472971255
                   </p>
                   <p className="text-gray-600 dark:text-gray-400 text-sm">
                     Mon-Fri, 9AM-6PM EST
                   </p>
                 </div>
               </div>
-              
+
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 rounded-xl bg-primary-100 dark:bg-primary-900/30 flex items-center justify-center">
                   <MapPin className="w-6 h-6 text-primary-600 dark:text-primary-400" />
@@ -92,7 +104,7 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            
+
             <div className="mt-12 p-6 bg-gradient-to-r from-primary-50 to-accent/10 dark:from-primary-900/20 dark:to-accent/5 rounded-2xl">
               <h4 className="font-bold text-lg mb-4">Why Choose Us?</h4>
               <ul className="space-y-3">
@@ -115,10 +127,17 @@ const Contact = () => {
               </ul>
             </div>
           </div>
-          
+
           {/* Right Column - Contact Form */}
           <div>
-            <form onSubmit={handleSubmit} className="space-y-6">
+            <form
+              name="contact"
+              method="POST"
+              data-netlify="true"
+              onSubmit={handleSubmit}
+              className="space-y-6"
+            >
+              <input type="hidden" name="form-name" value="contact" />
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-medium mb-2">
@@ -134,7 +153,7 @@ const Contact = () => {
                     placeholder="John Doe"
                   />
                 </div>
-                
+
                 <div>
                   <label className="block text-sm font-medium mb-2">
                     Email Address *
@@ -150,7 +169,7 @@ const Contact = () => {
                   />
                 </div>
               </div>
-              
+
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-medium mb-2">
@@ -165,7 +184,7 @@ const Contact = () => {
                     placeholder="+1 (555) 123-4567"
                   />
                 </div>
-                
+
                 <div>
                   <label className="block text-sm font-medium mb-2">
                     Company
@@ -180,7 +199,7 @@ const Contact = () => {
                   />
                 </div>
               </div>
-              
+
               <div>
                 <label className="block text-sm font-medium mb-2">
                   Service Interested In
@@ -199,7 +218,7 @@ const Contact = () => {
                   <option value="consulting">IT Consulting</option>
                 </select>
               </div>
-              
+
               <div>
                 <label className="block text-sm font-medium mb-2">
                   Your Message *
@@ -214,7 +233,7 @@ const Contact = () => {
                   placeholder="Tell us about your project..."
                 ></textarea>
               </div>
-              
+
               <div className="flex items-center">
                 <input
                   type="checkbox"
@@ -226,7 +245,7 @@ const Contact = () => {
                   I agree to the privacy policy and terms of service
                 </label>
               </div>
-              
+
               <Button type="submit" className="w-full">
                 <Send className="w-5 h-5 mr-2 inline" />
                 Send Message

@@ -35,6 +35,7 @@ export const footerData = {
             "+91 955331296"
         ],
         email: "auspicious.coder.pvt.ltd@gmail.com",
+        whatsapp: "+91 9472971255",
     }
     ,
     policies: [

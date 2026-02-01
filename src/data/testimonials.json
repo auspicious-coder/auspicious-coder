@@ -1,29 +1,38 @@
 [
   {
     "id": 1,
-    "name": "Rajesh Mehta",
-    "company": "TechInnovate Inc.",
-    "role": "CEO",
-    "feedback": "Auspicious Coders transformed our e-commerce platform. Their team's expertise in React and Node.js resulted in a 300% performance improvement.",
+    "name": "Previous Client",
+    "company": "E-Commerce Startup",
+    "role": "Project Manager",
+    "feedback": "The Java developer built a robust backend system for our platform. Code was clean, well-documented, and the API design was solid. Good communication throughout.",
     "rating": 5,
-    "project": "E-commerce Platform Revamp"
+    "project": "E-commerce Backend",
+    "type": "Previous Work",
+    "duration": "3 months",
+    "skills": ["Java Spring", "API Design", "PostgreSQL", "Code Quality"]
   },
   {
     "id": 2,
-    "name": "Anjali Verma",
-    "company": "HealthCare Plus",
-    "role": "CTO",
-    "feedback": "Outstanding mobile app development. They delivered our patient management app ahead of schedule with flawless execution.",
+    "name": "Tech Lead",
+    "company": "Previous Employer",
+    "role": "Senior Backend Lead",
+    "feedback": "Worked together on multiple enterprise projects. Strong understanding of Java Spring Boot and microservices. Always delivered clean, maintainable code with proper tests.",
     "rating": 5,
-    "project": "Healthcare Mobile App"
+    "project": "Enterprise Systems",
+    "type": "Professional Reference",
+    "skills": ["Java", "Spring Boot", "Microservices", "Testing"],
+    "linkedin": "https://linkedin.com/in/example"
   },
   {
     "id": 3,
-    "name": "Vikram Malhotra",
-    "company": "FinTech Solutions",
-    "role": "Director",
-    "feedback": "The AI integration they provided for our fraud detection system has reduced false positives by 85%. Exceptional work!",
-    "rating": 5,
-    "project": "AI-Powered Fraud Detection"
+    "name": "Open Source Maintainer",
+    "company": "GitHub Community",
+    "role": "React Library Maintainer",
+    "feedback": "Reviewed their React component contributions. Code follows best practices, good TypeScript usage, and clean architecture. Would collaborate again.",
+    "rating": 4,
+    "project": "React Components",
+    "type": "Code Review",
+    "skills": ["React", "TypeScript", "Clean Code", "Git"],
+    "github": "https://github.com/example"
   }
 ]

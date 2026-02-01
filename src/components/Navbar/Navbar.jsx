@@ -11,6 +11,7 @@ const Navbar = () => {
   const navItems = [
     { label: 'Home', href: '#home' },
     { label: 'Services', href: '#services' },
+    { label: 'Tech Stack', href: '#tech-stack' },
     { label: 'Projects', href: '#projects' },
     { label: 'About', href: '#about' },
     { label: 'Team', href: '#team' },
@@ -23,19 +24,19 @@ const Navbar = () => {
         <div className="container-custom py-4">
           <div className="flex justify-between items-center">
             {/* Logo */}
-<div className="flex items-center space-x-2">
-  <img
-    src={Logo}
-    alt="Auspicious Coders"
-    className="w-10 h-10"
-  />
-  <span className="text-2xl font-bold gradient-text hidden sm:block">
-    Auspicious Coders
-  </span>
-  <span className="text-2xl font-bold gradient-text sm:hidden">
-    AC
-  </span>
-</div>
+            <div className="flex items-center space-x-2">
+              <img
+                src={Logo}
+                alt="Auspicious Coders"
+                className="w-10 h-10"
+              />
+              <span className="text-2xl font-bold gradient-text hidden sm:block">
+                Auspicious Coders
+              </span>
+              <span className="text-2xl font-bold gradient-text sm:hidden">
+                AC
+              </span>
+            </div>
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-8">
@@ -49,7 +50,7 @@ const Navbar = () => {
                 </a>
               ))}
               <DarkModeToggle />
-              <Button>Get Quote</Button>
+              {/* <Button>Get Quote</Button> */}
             </div>
 
             {/* Mobile menu button */}
@@ -64,8 +65,8 @@ const Navbar = () => {
       </nav>
 
       {/* Mobile Menu */}
-      <MobileMenu 
-        isOpen={isMobileMenuOpen} 
+      <MobileMenu
+        isOpen={isMobileMenuOpen}
         onClose={() => setIsMobileMenuOpen(false)}
         navItems={navItems}
       />
