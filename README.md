@@ -1,5 +1,4 @@
-![Auspicious Coder Logo](https://github.com/auspicious-coder/auspicious-coder/raw/main/src/assets/images/gitbg.jpg
-)  
+
 
 # Welcome to Auspicious Coder 👋
 
