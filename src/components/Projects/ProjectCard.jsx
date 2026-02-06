@@ -72,14 +72,11 @@ const ProjectCard = ({ project }) => {
         
         <div className="flex items-center justify-between">
           <div className="text-sm text-gray-500 dark:text-gray-400">
-            <span className="block">{project.duration}</span>
+            <span className="block">Completed in {project.duration}</span>
             {project.client && (
               <span className="text-xs">For: {project.client}</span>
             )}
           </div>
-          {/* <button className="text-primary-600 dark:text-primary-400 font-semibold hover:underline">
-            View Code →
-          </button> */}
         </div>
       </div>
     </div>

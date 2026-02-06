@@ -9,7 +9,7 @@ const Team = () => {
         <SectionTitle
           subtitle="Meet Our Experts"
           title="The Brilliant Minds Behind"
-          highlight="Auspicious Coders"
+          highlight="Auspicious Coder"
         />
         
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">

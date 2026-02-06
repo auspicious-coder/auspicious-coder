@@ -59,19 +59,19 @@ const About = () => {
             
             <div className="space-y-6">
               <p className="text-lg text-gray-600 dark:text-gray-400">
-                Most agencies have **20 juniors and 2 seniors**. We flipped that model.
+                Most agencies have <strong>0 juniors and 2 seniors</strong>. We flipped that model.
               </p>
               
               <p className="text-lg text-gray-600 dark:text-gray-400">
-                **Auspicious Coders** is 6 experienced developers who've worked in the industry for years, 
-                now building our own agency. We skip the corporate layers and work **directly with clients**.
+                **Auspicious Coder** is 6 experienced developers who've worked in the industry for years, 
+                now building our own agency. We skip the corporate layers and work <strong>directly with clients</strong>.
               </p>
               
               <div className="bg-gray-50 dark:bg-gray-800/50 p-6 rounded-xl my-8 border-l-4 border-primary-500">
                 <h4 className="font-bold text-lg mb-2">🏆 Our Advantage:</h4>
                 <p className="text-gray-600 dark:text-gray-400">
                   Need a Java backend? Our Java expert codes it. Need React frontend? 
-                  Our React specialist builds it. **Each project gets the right expert from day one.**
+                  Our React specialist builds it. <strong>Each project gets the right expert from day one.</strong>
                 </p>
               </div>
             </div>
@@ -135,7 +135,7 @@ const About = () => {
             <div className="mt-12 pt-8 border-t border-white/20">
               <h3 className="text-2xl font-bold mb-4">Our Promise</h3>
               <p className="text-primary-100">
-                To deliver **expert-level code** without agency markup. You pay for developers, not for fancy offices.
+                To deliver <strong>expert-level code</strong> without agency markup. You pay for developers, not for fancy offices.
               </p>
             </div>
           </div>

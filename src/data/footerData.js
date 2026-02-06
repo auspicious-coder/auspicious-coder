@@ -1,34 +1,36 @@
 export const footerData = {
     company: {
-        name: "Auspicious Coders",
+        name: "Auspicious Coder",
         acronym: "AC",
         description:
             "Transforming businesses through innovative digital solutions. We build the future, one line of code at a time.",
         socialLinks: [
             { name: "Facebook", url: "#", icon: "Facebook" },
-            { name: "Twitter", url: "#", icon: "Twitter" },
+            { name: "Twitter", url: "#", icon: "FaXTwitter" },
             { name: "Linkedin", url: "#", icon: "Linkedin" },
-            { name: "Github", url: "#", icon: "Github" },
+            { name: "Github", url: "https://github.com/auspicious-coder", icon: "Github" },
         ],
     },
     quickLinks: [
         "Home",
         "Services",
+        "Tech Stack",
         "Projects",
         "About Us",
         "Team",
         "Contact",
     ],
     services: [
-        "Web Development",
-        "Mobile Apps",
-        "UI/UX Design",
-        "Cloud DevOps",
-        "AI/ML",
-        "Consulting",
+        "Mobile App Development",
+        "Full-Stack Development",
+        "Backend API Development",
+        "Frontend Development",
+        "Laravel Web Applications",
+        "Tech Consultation",
     ],
+
     contact: {
-        address: "123 Tech Street, Silicon Valley\nCalifornia, USA",
+        address: "Noida Sector - 62, India",
         phone: [
             "+91 9472971255",
             "+91 7000859656",

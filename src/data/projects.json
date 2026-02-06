@@ -5,11 +5,21 @@
     "category": "Full-Stack Demo",
     "description": "A demo e-commerce platform built with React + Java to showcase our full-stack capabilities.",
     "image": "/assets/images/demo-ecommerce.jpg",
-    "technologies": ["Java Spring", "React", "PostgreSQL", "JWT Auth"],
+    "technologies": [
+      "Java Spring",
+      "React",
+      "PostgreSQL",
+      "JWT Auth"
+    ],
     "year": "2024",
     "duration": "2 Months",
     "client": "Demo Project",
-    "features": ["Product catalog", "User authentication", "Shopping cart", "Admin panel"],
+    "features": [
+      "Product catalog",
+      "User authentication",
+      "Shopping cart",
+      "Admin panel"
+    ],
     "status": "Demo",
     "github": "https://github.com/yourusername/ecommerce-demo",
     "demo": "https://demo.auspiciouscoders.com"
@@ -20,11 +30,21 @@
     "category": "Mobile Demo",
     "description": "Cross-platform task manager built with Flutter to demonstrate our mobile expertise.",
     "image": "/assets/images/demo-tasks.jpg",
-    "technologies": ["Flutter", "Firebase", "Provider", "Local Storage"],
+    "technologies": [
+      "Flutter",
+      "Firebase",
+      "Provider",
+      "Local Storage"
+    ],
     "year": "2024",
     "duration": "1 Month",
     "client": "Demo Project",
-    "features": ["Task CRUD", "Notifications", "Dark mode", "Offline sync"],
+    "features": [
+      "Task CRUD",
+      "Notifications",
+      "Dark mode",
+      "Offline sync"
+    ],
     "status": "Demo",
     "github": "https://github.com/yourusername/task-app-demo",
     "demo": "https://demo.auspiciouscoders.com/mobile"
@@ -35,11 +55,22 @@
     "category": "Backend Demo",
     "description": "REST API with authentication, rate limiting, and documentation - built with Python FastAPI.",
     "image": "/assets/images/demo-api.jpg",
-    "technologies": ["Python", "FastAPI", "PostgreSQL", "JWT", "Swagger"],
+    "technologies": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "JWT",
+      "Swagger"
+    ],
     "year": "2024",
     "duration": "3 Weeks",
     "client": "Demo Project",
-    "features": ["JWT Authentication", "Rate Limiting", "Auto-docs", "Error handling"],
+    "features": [
+      "JWT Authentication",
+      "Rate Limiting",
+      "Auto-docs",
+      "Error handling"
+    ],
     "status": "Demo",
     "github": "https://github.com/yourusername/api-demo",
     "demo": null
@@ -50,13 +81,49 @@
     "category": "Frontend Demo",
     "description": "React admin dashboard with charts, tables, and user management features.",
     "image": "/assets/images/demo-dashboard.jpg",
-    "technologies": ["React", "TypeScript", "Chart.js", "Tailwind CSS"],
+    "technologies": [
+      "React",
+      "TypeScript",
+      "Chart.js",
+      "Tailwind CSS"
+    ],
     "year": "2024",
     "duration": "1 Month",
     "client": "Demo Project",
-    "features": ["Data visualization", "User management", "Responsive design", "Theme toggle"],
+    "features": [
+      "Data visualization",
+      "User management",
+      "Responsive design",
+      "Theme toggle"
+    ],
     "status": "Demo",
     "github": "https://github.com/yourusername/dashboard-demo",
     "demo": "https://dashboard-demo.auspiciouscoders.com"
+  },
+  {
+    "id": 5,
+    "title": "AI Chatbot Platform",
+    "category": "AI Demo",
+    "description": "An AI-powered chatbot platform for customer support, showcasing NLP and real-time messaging capabilities.",
+    "image": "/assets/images/demo-chatbot.jpg",
+    "technologies": [
+      "Python",
+      "FastAPI",
+      "OpenAI API",
+      "React",
+      "WebSockets"
+    ],
+    "year": "2024",
+    "duration": "1 Month",
+    "client": "Demo Project",
+    "features": [
+      "Real-time chat",
+      "AI-powered responses",
+      "Conversation history",
+      "Admin training panel"
+    ],
+    "status": "Demo",
+    "github": "https://github.com/yourusername/ai-chatbot-demo",
+    "demo": "https://chatbot-demo.auspiciouscoders.com"
   }
 ]

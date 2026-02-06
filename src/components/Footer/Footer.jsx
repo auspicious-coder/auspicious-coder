@@ -1,8 +1,9 @@
 import { Facebook, Twitter, Linkedin, Github, Mail, Phone, MapPin } from "lucide-react";
+import { FaXTwitter } from "react-icons/fa6";
 import { footerData } from "../../data/footerData";
 import { FaWhatsapp } from "react-icons/fa";
 
-const iconMap = { Facebook, Twitter, Linkedin, Github };
+const iconMap = { Facebook, FaXTwitter, Linkedin, Github };
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -70,7 +71,7 @@ const Footer = () => {
               {services.map((service) => (
                 <li key={service}>
                   <a
-                    href="#"
+                    href="#services"
                     className="text-gray-400 hover:text-primary-400 transition-colors"
                   >
                     {service}

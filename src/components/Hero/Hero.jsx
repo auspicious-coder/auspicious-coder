@@ -89,7 +89,7 @@ const Hero = () => {
             
             {/* TECH STACK BADGES - Show Actual Skills */}
             <div className="flex flex-wrap gap-2 mb-8">
-              {['Java', 'React', 'Python', 'Flutter', 'PostgreSQL', 'Laravel'].map((tech) => (
+              {['Java', 'React', 'Python', 'Flutter', 'PostgreSQL', 'Laravel','Ssms','Jasper'].map((tech) => (
                 <span key={tech} className="px-3 py-1 bg-gray-100 dark:bg-gray-800 rounded-full text-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors cursor-default">
                   {tech}
                 </span>

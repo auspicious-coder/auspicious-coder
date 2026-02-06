@@ -14,7 +14,7 @@ const MobileMenu = ({ isOpen, onClose, navItems }) => {
         <div className="flex justify-between items-center mb-8">
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-gradient-to-r from-primary-600 to-accent rounded-lg"></div>
-            <span className="font-bold">Auspicious Coders</span>
+            <span className="font-bold">Auspicious Coder</span>
           </div>
           <button 
             onClick={onClose}

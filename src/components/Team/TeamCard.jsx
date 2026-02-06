@@ -1,4 +1,6 @@
 import { Linkedin, Twitter, Github } from 'lucide-react';
+import { FaXTwitter } from "react-icons/fa6";
+
 
 const TeamCard = ({ member }) => {
   return (
@@ -62,7 +64,7 @@ const TeamCard = ({ member }) => {
               href={member.social.twitter}
               className="w-10 h-10 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center hover:bg-blue-500 hover:text-white transition-colors"
             >
-              <Twitter size={18} />
+              <FaXTwitter size={18} />
             </a>
           )}
           {member.social.github && (

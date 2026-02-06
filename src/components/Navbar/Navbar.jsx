@@ -27,11 +27,11 @@ const Navbar = () => {
             <div className="flex items-center space-x-2">
               <img
                 src={Logo}
-                alt="Auspicious Coders"
+                alt="Auspicious Coder"
                 className="w-10 h-10"
               />
               <span className="text-2xl font-bold gradient-text hidden sm:block">
-                Auspicious Coders
+                Auspicious Coder
               </span>
               <span className="text-2xl font-bold gradient-text sm:hidden">
                 AC

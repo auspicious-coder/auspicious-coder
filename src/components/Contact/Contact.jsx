@@ -98,8 +98,7 @@ const Contact = () => {
                 <div>
                   <h4 className="font-bold mb-2">Visit Us</h4>
                   <p className="text-gray-600 dark:text-gray-400">
-                    123 Tech Street, Silicon Valley<br />
-                    California, USA
+                    Noida Sector - 62, Noida
                   </p>
                 </div>
               </div>

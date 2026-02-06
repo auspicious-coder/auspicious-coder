@@ -47,7 +47,7 @@ const ComingSoon = () => {
           <div className="w-12 h-12 bg-gradient-to-r from-primary-600 to-accent rounded-xl flex items-center justify-center">
             <span className="text-white font-bold text-2xl">AC</span>
           </div>
-          <span className="text-3xl font-bold gradient-text">Auspicious Coders</span>
+          <span className="text-3xl font-bold gradient-text">Auspicious Coder</span>
         </div>
 
         {/* Main Content */}
